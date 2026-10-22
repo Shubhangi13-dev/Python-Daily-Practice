@@ -1,4 +1,4 @@
-
+'''
 https://github.com/Shubhangi13-dev
 name = "Shubhangi"
 city = "Belagavi"
@@ -90,7 +90,7 @@ print("hello world".replace("l", "x", 1))
 print("banana".rfind("a"))
 
 # 24
-print("apple, banana, cherry".split(","))
+print("apple, banana, cherry".split(","))'''
 
 
 
