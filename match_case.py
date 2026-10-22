@@ -1,4 +1,4 @@
-'''
+
 marks = 70
 
 match marks:
@@ -56,14 +56,14 @@ match operator:
       print("Cannot divide by zero")
 
   case _:
-      print("Invalid operator")'''
+      print("Invalid operator")
 
 
 
 # 10 questions
 
-# 1 Integer value match
-'''
+# 1. Integer value match
+
 num = int(input("enter number: "))
 
 match num:
@@ -77,7 +77,7 @@ match num:
         print("Other number")
 
 
-# 2 String match
+# 2. String match
 
 fruit = input("enter fruit: ").lower()
 
@@ -92,7 +92,7 @@ match fruit:
         print("Fruit not available")
 
 
-# 3 One case multiple values
+# 3. One case multiple values
 
 day = int(input("enter day number: "))
 
@@ -105,7 +105,7 @@ match day:
         print("Invalid day")
 
 
-# 4 Guard - case and if
+# 4. Guard - case and if
 
 marks = int(input("enter marks: "))
 
@@ -118,7 +118,7 @@ match marks:
         print("Fail")
 
 
-# 5 Variable capture
+# 5. Variable capture
 
 value = input("enter anything: ")
 
@@ -129,7 +129,7 @@ match value:
         print("you entered:", name)
 
 
-# 6 Tuple pattern
+# 6. Tuple pattern
 
 point = (0,0)
 
@@ -144,7 +144,7 @@ match point:
         print("Other point")
 
 
-# 7 List pattern
+# 7. List pattern
 
 items = [10,20]
 
@@ -159,7 +159,7 @@ match items:
         print("Other list")
 
 
-# 8 List first element match 
+# 8. List first element match 
 
 numbers = [1, 10, 20]
 
@@ -171,7 +171,7 @@ match numbers:
         print("Does not start with 1")
 
 
-# 9 None match
+# 9. None match
 
 result = None
 
@@ -179,10 +179,10 @@ match result:
     case None:
         print("No result")
     case value:
-        print("Result:", value)'''
+        print("Result:", value)
 
 
-# 10 Arithmetic operator and guard
+# 10. Arithmetic operator and guard
 
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
